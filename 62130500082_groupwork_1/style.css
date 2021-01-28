@@ -1,0 +1,37 @@
+li:hover {
+    transition-delay: 150ms;
+    color: aliceblue;
+}
+
+#menubar {
+    background-color: rgba(14, 14, 14, 1);
+    color: gray;
+}
+
+#bottom-info {
+    background-color: rgba(14, 14, 14, 1);
+    color: gray;
+}
+
+#Terms_of_Service {
+    background-color: rgba(19, 19, 19, 1);
+    color: gray;
+}
+
+#Privacy_Policy {
+    background-color: rgba(19, 19, 19, 1);
+    color: gray;
+}
+
+#Terms_of_Service:hover {
+    background-color: rgba(29, 29, 29, 1);
+}
+
+#Privacy_Policy:hover {
+    background-color: rgba(29, 29, 29, 1);
+}
+
+.example {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
