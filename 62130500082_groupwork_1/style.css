@@ -35,3 +35,27 @@ li:hover {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
+.img-rov {
+    width: 100%;
+    height: auto;
+}
+
+.button-parallelogram {
+    text-decoration: none;
+    background: black;
+    position: absolute;
+    top: 70%;
+    left: 72%;
+    display: inline-block;
+    padding: 0.9em 7em;
+    transform: skew(-20deg);
+    color: red;
+    transition: width 2s;
+}
+
+.parallelogram-info {
+    display: inline-block;
+    font-size: 1.4em;
+    transform: skew(20deg);
+}
