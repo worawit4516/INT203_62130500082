@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>HTMLiveCode</title>
+	</head>
+	<body> 
+		<div id="app">
+			<h1>{{message}} </h1>
+			<h1>{{name}}</h1>
+		</div>
+		<script>
+			var el = document.getElementById("app") ;
+			var data = {
+				message: "Hello",
+				name: "JavaScript"
+			} ;
+			var content = el.innerHTML ;
+			for(k in data){
+				content = content.replace(`{{${k}}}`,data[k]) ;
+			}
+			el.innerHTML = content ;
+		</script>
+	</body>
+</html>
